@@ -3,7 +3,7 @@ var datefloor = require('../');
 describe('date-floor', function(){
 
   it('should be a function', function() {
-    datefloor.should.be.type('function');
+    datefloor.should.be.a('function');
   })
 
   it('should throw with a bad resolution', function() {
