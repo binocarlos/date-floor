@@ -1,0 +1,30 @@
+{
+  "name": "date-floor",
+  "version": "0.0.1",
+  "description": "Like Math.floor but for Date objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/binocarlos/date-floor.git"
+  },
+  "keywords": [
+    "date",
+    "floor",
+    "rounding",
+    "days"
+  ],
+  "author": "Kai Davenport",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/binocarlos/date-floor/issues"
+  },
+  "homepage": "https://github.com/binocarlos/date-floor",
+  "devDependencies": {},
+  "dependencies": {
+    "should": "^3.3.0",
+    "mocha": "^1.18.2"
+  }
+}
