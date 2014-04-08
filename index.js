@@ -27,9 +27,7 @@ var processors = {
 }
 
 module.exports = function date_floor(date, resolution){
-	if(typeof(date)==="number"){
-		date = new Date(date);
-	}
+	date = new Date(date);
 	resolution = resolution || 'day';
 	var processor = processors[resolution];
 	if(!processor){
