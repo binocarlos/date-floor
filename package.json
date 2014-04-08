@@ -1,6 +1,6 @@
 {
   "name": "date-floor",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Like Math.floor but for Date objects",
   "main": "index.js",
   "scripts": {
@@ -26,7 +26,5 @@
     "mocha": "~1.12.0",
     "should": "~1.2.2"
   },
-  "dependencies": {
-    
-  }
+  "dependencies": {}
 }
